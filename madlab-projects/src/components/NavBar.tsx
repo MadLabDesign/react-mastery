@@ -1,4 +1,5 @@
 import { FC } from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 
@@ -48,46 +49,47 @@ const Navbar: FC<INavbarProps> = () => {
                             data-kt-menu-placement="bottom-start"
                             className="menu-item menu-lg-down-accordion me-lg-1"
                           >
-                            <a className="menu-link py-3" href="#">
+                             <Link to="/new_cases" className="menu-link py-3">
                               <span className="menu-icon">
                                 <i className="bi bi-plus-circle text-primary fs-3"></i>
                               </span>
                               <span className="menu-title">Start New Case</span>
-                            </a>
+                            </Link>
                           </div>
                           <div
                             data-kt-menu-trigger="click"
                             data-kt-menu-placement="bottom-start"
                             className="menu-item menu-lg-down-accordion me-lg-1"
                           >
-                            <a className="menu-link py-3" href="#">
-                              <span className="menu-icon">
+                            <Link to="/schedule" className="menu-link py-3">
+                            <span className="menu-icon">
                                 <i className="bi bi-clock text-primary fs-3"></i>
                               </span>
                               <span className="menu-title">
                                 Schedule Live Review
                               </span>
-                            </a>
+                            </Link>
+
                           </div>
                           <div
                             data-kt-menu-trigger="click"
                             data-kt-menu-placement="bottom-start"
                             className="menu-item menu-lg-down-accordion me-lg-1"
                           >
-                            <a className="menu-link py-3" href="#">
+                            <Link to="/patients" className="menu-link py-3">
                               <span className="menu-icon">
                                 <i className="bi bi-people text-primary fs-3"></i>
                               </span>
                               <span className="menu-title">View Patients</span>
-                            </a>
+                            </Link>
                           </div>
                           <div className="menu-item menu-lg-down-accordion me-lg-1">
-                            <a className="menu-link py-3" href="#">
+                            <Link to="/account" className="menu-link py-3">
                               <span className="menu-icon">
                                 <i className="bi bi-briefcase text-primary fs-3"></i>
                               </span>
                               <span className="menu-title">My Account</span>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
