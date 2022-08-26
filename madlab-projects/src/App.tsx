@@ -1,7 +1,11 @@
 import "./assets/plugins/global/plugins.bundle.css";
 import "./assets/css/style.bundle.css";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/NavBar";
 import HeaderBar from "./components/HeaderBar";
+import Main from "./components/Main";
+import { Account, Home, NewCases, Patients, Schedule } from "./pages";
+
 function App() {
   return (
     <div className="d-flex flex-column flex-root">
@@ -10,31 +14,24 @@ function App() {
           className="wrapper d-flex flex-column flex-row-fluid"
           id="kt_wrapper"
         >
-          <div
-            id="kt_header"
-            className="header"
-            data-kt-sticky="true"
-            data-kt-sticky-name="header"
-            data-kt-sticky-offset="{default: '200px', lg: '300px'}"
-          >
-            <HeaderBar/>
-            <div className="separator"/>
-
-              <Navbar/>
-            </div>
-          </div>
-          {/* Content area */}
-          <div
-            id="kt_content_container"
-            className="d-flex flex-column-fluid align-items-start container-fluid"
-          >
-            <div className="content flex-row-fluid" id="kt_content">
-              CONTENT HERE
-            </div>
-          </div>
+          <header className="header">
+            <HeaderBar />
+            <div className="separator" />
+            <Navbar />
+          </header>
         </div>
-      </div>
 
+        <Main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/account" element={<Account />} />
+            <Route path="/new_cases" element={<NewCases />} />
+            <Route path="/patients" element={<Patients />} />
+            <Route path="/schedule" element={<Schedule />} />
+          </Routes>
+        </Main>
+      </div>
+    </div>
   );
 }
 
