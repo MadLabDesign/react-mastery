@@ -1,46 +1,102 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<a name="readme-top"></a>
 
-## Available Scripts
 
-In the project directory, you can run:
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/MadLabDesign/">
+    <img src="madlab-img.png" alt="Logo" width="80" height="80">
+  </a>
 
-### `npm start`
+  <h3 align="center">MLD-Auth-Page</h3>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <p align="center">
+    React App with Typescript, QraphQL and converting a HTML theme to jsx/tsx
+    <br />
+    <a href="/"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="/">View Demo</a>
+    ·
+    <a href="/">Report Bug</a>
+    ·
+    <a href="/">Request Feature</a>
+  </p>
+</div>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+<!-- ABOUT THE PROJECT -->
+## About The Project
+This is a HTML Theme project rebuilt with React v8, GraphQL and Typscript. 
+1. Built to have a Signup / login Authentication process
+2. Email with Verification code 
+3. Home page with a Key map list of cards(Projects) that uses the GraphQl shceme and Amazon DynamoDB
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- GETTING STARTED -->
+## Getting Started
 
-### `npm run build`
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Get a free API Key at [https://example.com](https://example.com)
+2. Clone the repo
+   ```sh
+   git clone git@github.com:MadLabDesign/mld-auth-page.git
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Enter your API in `config.js`
+   ```js
+   const API_KEY = 'ENTER YOUR API';
+   ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<!-- TODO tasks -->
+## Tasks To be added to project
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<!-- Theme document setup -->
 
-## Learn More
+# Metronic - Bootstrap 5 HTML, React, Angular, VueJS & Laravel Admin Dashboard Theme
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Current version includes the HTML version with Demo 1 only and other demos(20 and counting) can be downloaded online from [Metronic Downloads](//devs.keenthemes.com/metronic)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- For a quick start please check [Online documentation page](//preview.keenthemes.com/metronic8/demo1/documentation/getting-started.html)
+
+- The offline documentation is available within the theme [Offline documentation page](//theme/dist/demo1/documentation/getting-started.html)
+
+- For any theme related questions go to our [Support Center](//devs.keenthemes.com)
+
+- Using Metronic in a new project or for a new client ? Purchase a new license https://1.envato.market/EA4JP or watch https://youtu.be/HJ3RNhoI24A to find out more information about licenses.
+
+
+
+
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+Figma file: https://www.figma.com/file/K3vsRU9QHrkMWLLrlPAxZ1/ConeScan?node-id=0%3A1
+Happy coding
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
