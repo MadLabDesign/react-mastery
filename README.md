@@ -5,11 +5,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/MadLabDesign/">
-    <img src="madlab-img.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">MLD-Auth-Page</h3>
+ 
+  <h3 align="center">React Mastery</h3>
 
   <p align="center">
     React App with Typescript, QraphQL and converting a HTML theme to jsx/tsx
